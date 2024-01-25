@@ -8,10 +8,6 @@ To know the status
     
     Git status
 
-To commit the chnages
-    
-    Git add <FileName>
-
 To commit the changes 
     
     Git commit -m "Updated the README.MD file"
