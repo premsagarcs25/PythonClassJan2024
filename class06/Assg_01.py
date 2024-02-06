@@ -14,10 +14,10 @@ Step 5: House Rent paid of 1500
 Step 6: Display Balance
 """
 
-balance=0
+balance =0
 min_balance=1500
 salary_credited=3300
 online_purchase=33.33
 paid_house_rent=1500
-balance = min_balance + salary_credited - online_purchase - paid_house_rent
-print("Balance :", balance)
+balance = min_balance+salary_credited-online_purchase-paid_house_rent
+print("Balance :",balance)
