@@ -20,4 +20,4 @@ salary_credited=3300
 online_purchase=33.33
 paid_house_rent=1500
 balance = min_balance+salary_credited-online_purchase-paid_house_rent
-print("Balance :",balance)
+print("Balance :",balance) #balance = 3266.67
