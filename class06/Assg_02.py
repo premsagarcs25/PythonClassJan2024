@@ -29,7 +29,7 @@ compound_period=int(input("Enter the comppounding periods per year :"))
 
 # A = P (1 + r/n)^nt
 payable_amount  = round(borrowed_amount * (1 + (rate_of_interest / compound_period))**(compound_period * loan_duration))
-interest_amount = payable_amount - borrowed_amount
+interest_amount = round(payable_amount - borrowed_amount)
 
 print("Principle          :", borrowed_amount)
 print("Rate of Interest   :", rate_of_interest)
