@@ -29,4 +29,4 @@ elif guessed_number < LUCKY_NUMBER:  # 34 < 69
     print("Please Try Again with increasing your guess number")
 
 
-# NOTE: else block is optional in python
+# NOTE: else block is optional in pythons
