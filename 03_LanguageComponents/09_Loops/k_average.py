@@ -44,3 +44,4 @@ print(f"{result =} {type(result)}")  # int
 
 # Assignment - calculate the avergae of numbers provided in runtime
 # HINTS - while , input(), eval(), len(), sum()
+

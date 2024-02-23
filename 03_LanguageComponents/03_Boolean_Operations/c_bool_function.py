@@ -23,6 +23,15 @@ print("bool(0.000000001) ", bool(0.000000001))
 print("bool(-0.000000001)", bool(-0.000000001))
 print()
 # Assignment - after decimal, if you write how many zeros followed by 1 in last, will make the result as False
+def make_result_false():
+    number = 1e-10
+    while bool(number):
+        number /= 10
+        number += 1
+    return number
+
+result_false_number = make_result_false()
+print(result_false_number)
 
 
 # strings

@@ -116,3 +116,13 @@ for loop_index, each_ele in enumerate([11, 22, 33, 44, 55], -50):
 print()
 
 # Assignment: perform for loop & Enumeration on range() object
+
+#for loop with range() object
+print("Using for loop:")
+for i in range(5):
+    print(i)
+
+# enumerate with range() object
+print("Using enumerate:")
+for index, value in enumerate(range(5)):
+    print(f"Index: {index}, Value: {value}")
